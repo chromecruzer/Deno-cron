@@ -23,25 +23,36 @@ const proxies = [
   'http://50.172.75.124:80'
 ];
 
-// Function to check the status of the site using a proxy
+// List of URLs to check
+const urlsToCheck = [
+  'https://jnj-scam.onrender.com/',
+  'https://susmitha-maria.onrender.com/',
+];
+
+// Function to check the status of a single URL using proxies
 async function checkStatusWithProxies(url: string) {
   for (const proxy of proxies) {
     const agent = new HttpsProxyAgent(proxy);
 
     try {
       const response = await axios.get(url, { httpsAgent: agent });
-      console.log(`Status from ${proxy}:`, response.status);
+      console.log(`Status from ${proxy} for ${url}:`, response.status);
     } catch (error) {
-      console.log(`Error from ${proxy}:`, error.message);
+      console.log(`Error from ${proxy} for ${url}:`, error.message);
     }
   }
 }
 
-const urlToCheck = 'https://jnj-scam.onrender.com/';
+// Function to check the status of multiple URLs
+async function checkMultipleUrls(urls: string[]) {
+  for (const url of urls) {
+    console.log(`Checking status for ${url}...`);
+    await checkStatusWithProxies(url);
+  }
+}
 
 // Schedule the task to run every 15 minutes
-Deno.cron("Check Site Status", "*/15 * * * *", () => {
-  console.log('Checking site status...');
-  checkStatusWithProxies(urlToCheck);
+Deno.cron("Check Site Status", "*/1 * * * *", () => {
+  console.log('Checking site statuses...');
+  checkMultipleUrls(urlsToCheck);
 });
-//console.log(`working`)
