@@ -1,0 +1,47 @@
+import axios from "npm:axios@1.3.4";
+import HttpsProxyAgent from "npm:https-proxy-agent@5.0.1";
+
+// List of proxies from the free proxy list
+const proxies = [
+  'http://189.240.60.164:9090',
+  'http://50.175.212.76:80',
+  'http://50.144.166.226:80',
+  'http://50.231.104.58:80',
+  'http://50.172.75.123:80',
+  'http://50.223.246.226:80',
+  'http://85.8.68.2:80',
+  'http://50.174.145.10:80',
+  'http://50.223.239.161:80',
+  'http://50.175.212.77:80',
+  'http://50.172.75.127:80',
+  'http://50.145.24.176:80',
+  'http://50.232.104.86:80',
+  'http://50.218.57.70:80',
+  'http://167.102.133.105:80',
+  'http://50.231.172.74:80',
+  'http://172.245.12.55:34567',
+  'http://50.172.75.124:80'
+];
+
+// Function to check the status of the site using a proxy
+async function checkStatusWithProxies(url: string) {
+  for (const proxy of proxies) {
+    const agent = new HttpsProxyAgent(proxy);
+
+    try {
+      const response = await axios.get(url, { httpsAgent: agent });
+      console.log(`Status from ${proxy}:`, response.status);
+    } catch (error) {
+      console.log(`Error from ${proxy}:`, error.message);
+    }
+  }
+}
+
+const urlToCheck = 'https://jnj-scam.onrender.com/';
+
+// Schedule the task to run every 15 minutes
+Deno.cron("Check Site Status", "*/15 * * * *", () => {
+  console.log('Checking site status...');
+  checkStatusWithProxies(urlToCheck);
+});
+//console.log(`working`)
