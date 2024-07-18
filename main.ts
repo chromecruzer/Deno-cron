@@ -25,9 +25,10 @@ const proxies = [
 
 // List of URLs to check
 const urlsToCheck = [
-  'https://jnj-scam.onrender.com/',
-  'https://susmitha-maria.onrender.com/',
-  'https://global-chat-zl7b.onrender.com/',
+  // 'https://jnj-scam.onrender.com/',
+  // 'https://susmitha-maria.onrender.com/',
+  // 'https://global-chat-zl7b.onrender.com/',
+  'https://uniqueforce-graphql-demo.onrender.com'
 ];
 
 // Function to check the status of a single URL using proxies
