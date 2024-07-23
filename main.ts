@@ -29,6 +29,7 @@ const urlsToCheck = [
    'https://susmitha-maria.onrender.com/',
   // 'https://global-chat-zl7b.onrender.com/',
   'https://prachitha-saravanan.onrender.com',
+  'https://ezhil-bbco.onrender.com',
   'https://uniqueforce-graphql-demo.onrender.com'
 ];
 
