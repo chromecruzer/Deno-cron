@@ -31,7 +31,8 @@ const urlsToCheck = [
   'https://prachitha-saravanan.onrender.com',
 //  'https://ezhil-bbco.onrender.com',
   'https://madhav-portfolio-q4tn.onrender.com/',
-  'https://uniqueforce-graphql-demo.onrender.com'
+  'https://uniqueforce-graphql-demo.onrender.com',
+  'https://chatapp-8dgp.onrender.com/',
 ];
 
 // Function to check the status of a single URL using proxies
