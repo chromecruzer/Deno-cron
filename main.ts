@@ -26,13 +26,13 @@ const proxies = [
 // List of URLs to check
 const urlsToCheck = [
   // 'https://jnj-scam.onrender.com/',
-   'https://susmitha-maria.onrender.com/',
+  // 'https://susmitha-maria.onrender.com/',
   // 'https://global-chat-zl7b.onrender.com/',
-  'https://prachitha-saravanan.onrender.com',
+ // 'https://prachitha-saravanan.onrender.com',
 //  'https://ezhil-bbco.onrender.com',
   'https://madhav-portfolio-q4tn.onrender.com/',
   'https://uniqueforce-graphql-demo.onrender.com',
-  'https://chatapp-8dgp.onrender.com/',
+//  'https://chatapp-8dgp.onrender.com/',
   'https://sudhalakshmi-task-management.onrender.com',
   'https://prachitha-saravanan-r9w6.onrender.com/',
 ];
