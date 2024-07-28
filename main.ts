@@ -35,6 +35,7 @@ const urlsToCheck = [
 //  'https://chatapp-8dgp.onrender.com/',
   'https://sudhalakshmi-task-management.onrender.com',
   'https://prachitha-saravanan-r9w6.onrender.com/',
+  'https://startchat-chat-app.onrender.com/', 
 ];
 
 // Function to check the status of a single URL using proxies
