@@ -34,9 +34,9 @@ const urlsToCheck = [
   //'https://uniqueforce-graphql-demo.onrender.com',
 //  'https://chatapp-8dgp.onrender.com/',
  // 'https://sudhalakshmi-task-management.onrender.com',
-  //'https://prachitha-saravanan-r9w6.onrender.com/',  //
+  'https://prachitha-saravanan-r9w6.onrender.com/',  //
  // 'https://startchat-chat-app.onrender.com/', 
-  //'https://abirami-portfolio.onrender.com',  //
+  'https://abirami-portfolio.onrender.com',  //
   // 'https://rust-httpserver.onrender.com',
   // 'https://bun-httpserver.onrender.com',
   //'http://mythili.uniqueforce.in/',
@@ -65,7 +65,7 @@ async function checkMultipleUrls(urls: string[]) {
 }
 
 // Schedule the task to run every 15 minutes
-// Deno.cron("Check Site Status", "*/1 * * * *", () => {
-//   console.log('Checking site statuses...');
-//   checkMultipleUrls(urlsToCheck);
-// });
+Deno.cron("Check Site Status", "*/15 * * * *", () => {
+  console.log('Checking site statuses...');
+  checkMultipleUrls(urlsToCheck);
+});
