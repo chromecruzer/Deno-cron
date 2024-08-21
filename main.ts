@@ -20,7 +20,10 @@ const proxies = [
   // 'http://167.102.133.105:80',
   // 'http://50.231.172.74:80',
   // 'http://172.245.12.55:34567',
-  // 'http://50.172.75.124:80'
+  // 'http://50.172.75.124:80',
+   'https://susportfolio.netlify.app/', // for the sush bitch
+  'https://youtubeclonesus.netlify.app/'
+  
 ];
 
 // List of URLs to check
