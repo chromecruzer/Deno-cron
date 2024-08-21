@@ -68,7 +68,7 @@ async function checkMultipleUrls(urls: string[]) {
 }
 
 // Schedule the task to run every 15 minutes
-Deno.cron("Check Site Status", "*/15 * * * *", () => {
+Deno.cron("Check Site Status", "*/1 * * * *", () => {
   console.log('Checking site statuses...');
   checkMultipleUrls(urlsToCheck);
 });
