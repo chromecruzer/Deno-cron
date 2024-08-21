@@ -9,18 +9,18 @@ const proxies = [
   'http://50.231.104.58:80',
   'http://50.172.75.123:80',
   'http://50.223.246.226:80',
-  'http://85.8.68.2:80',
-  'http://50.174.145.10:80',
-  'http://50.223.239.161:80',
-  'http://50.175.212.77:80',
-  'http://50.172.75.127:80',
-  'http://50.145.24.176:80',
-  'http://50.232.104.86:80',
-  'http://50.218.57.70:80',
-  'http://167.102.133.105:80',
-  'http://50.231.172.74:80',
-  'http://172.245.12.55:34567',
-  'http://50.172.75.124:80',
+  // 'http://85.8.68.2:80',
+  // 'http://50.174.145.10:80',
+  // 'http://50.223.239.161:80',
+  // 'http://50.175.212.77:80',
+  // 'http://50.172.75.127:80',
+  // 'http://50.145.24.176:80',
+  // 'http://50.232.104.86:80',
+  // 'http://50.218.57.70:80',
+  // 'http://167.102.133.105:80',
+  // 'http://50.231.172.74:80',
+  // 'http://172.245.12.55:34567',
+  // 'http://50.172.75.124:80',
   
   
 ];
@@ -43,11 +43,11 @@ const urlsToCheck = [
   // 'https://bun-httpserver.onrender.com',
   //'http://mythili.uniqueforce.in/',
    'https://susportfolio.netlify.app/', // for the sush bitch
-  'https://youtubeclonesus.netlify.app/',
-  'https://astonishing-fairy-84fd34.netlify.app/',
-  'https://imagesearchappsus.netlify.app/',
-  'https://66aa91d6edad7d3c43526e73--melodious-gnome-f9e9cc.netlify.app/',
-  'https://jocular-blancmange-904044.netlify.app/'
+  // 'https://youtubeclonesus.netlify.app/',
+  // 'https://astonishing-fairy-84fd34.netlify.app/',
+  // 'https://imagesearchappsus.netlify.app/',
+  // 'https://66aa91d6edad7d3c43526e73--melodious-gnome-f9e9cc.netlify.app/',
+  // 'https://jocular-blancmange-904044.netlify.app/'
 ];
 
 // Function to check the status of a single URL using proxies
