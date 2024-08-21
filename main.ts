@@ -21,8 +21,7 @@ const proxies = [
   // 'http://50.231.172.74:80',
   // 'http://172.245.12.55:34567',
   // 'http://50.172.75.124:80',
-   'https://susportfolio.netlify.app/', // for the sush bitch
-  'https://youtubeclonesus.netlify.app/'
+  
   
 ];
 
@@ -43,6 +42,12 @@ const urlsToCheck = [
   // 'https://rust-httpserver.onrender.com',
   // 'https://bun-httpserver.onrender.com',
   //'http://mythili.uniqueforce.in/',
+   'https://susportfolio.netlify.app/', // for the sush bitch
+  'https://youtubeclonesus.netlify.app/'
+  'https://astonishing-fairy-84fd34.netlify.app/',
+  'https://imagesearchappsus.netlify.app/',
+  'https://66aa91d6edad7d3c43526e73--melodious-gnome-f9e9cc.netlify.app/',
+  'https://jocular-blancmange-904044.netlify.app/'
 ];
 
 // Function to check the status of a single URL using proxies
