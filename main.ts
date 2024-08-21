@@ -43,7 +43,7 @@ const urlsToCheck = [
   // 'https://bun-httpserver.onrender.com',
   //'http://mythili.uniqueforce.in/',
    'https://susportfolio.netlify.app/', // for the sush bitch
-  'https://youtubeclonesus.netlify.app/'
+  'https://youtubeclonesus.netlify.app/',
   'https://astonishing-fairy-84fd34.netlify.app/',
   'https://imagesearchappsus.netlify.app/',
   'https://66aa91d6edad7d3c43526e73--melodious-gnome-f9e9cc.netlify.app/',
