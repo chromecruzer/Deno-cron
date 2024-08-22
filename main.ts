@@ -48,7 +48,7 @@ const urlsToCheck = [
   // 'https://imagesearchappsus.netlify.app/',
   // 'https://66aa91d6edad7d3c43526e73--melodious-gnome-f9e9cc.netlify.app/',
   // 'https://jocular-blancmange-904044.netlify.app/',
-  'https://tinyurl.com/Friday2001/'
+ // 'https://tinyurl.com/Friday2001/'
 ];
 
 // Function to check the status of a single URL using proxies
