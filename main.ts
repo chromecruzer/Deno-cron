@@ -35,14 +35,14 @@ const urlsToCheck = [
   // 'https://madhav-portfolio-q4tn.onrender.com/',
  // 'https://uniqueforce-graphql-demo.onrender.com',
 //  'https://chatapp-8dgp.onrender.com/',
-  'https://sudhalakshmi-task-management.onrender.com',
-  'https://prachitha-saravanan-r9w6.onrender.com/',  //
+ // 'https://sudhalakshmi-task-management.onrender.com',
+ // 'https://prachitha-saravanan-r9w6.onrender.com/',  //
  // 'https://startchat-chat-app.onrender.com/', 
   'https://abirami-portfolio.onrender.com',  //
   // 'https://rust-httpserver.onrender.com',
   // 'https://bun-httpserver.onrender.com',
   //'http://mythili.uniqueforce.in/',
-   'https://susportfolio.netlify.app/', // for the sush bitch
+  // 'https://susportfolio.netlify.app/', // for the sush bitch
   // 'https://youtubeclonesus.netlify.app/',
   // 'https://astonishing-fairy-84fd34.netlify.app/',
   // 'https://imagesearchappsus.netlify.app/',
