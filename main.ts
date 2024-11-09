@@ -50,7 +50,8 @@ const urlsToCheck = [
   // 'https://jocular-blancmange-904044.netlify.app/',
  // 'https://tinyurl.com/Friday2001/'
   'https://reposerviise.onrender.com/',
- // 'https://uniqueforce-api.onrender.com/healthz'
+ // 'https://uniqueforce-api.onrender.com/healthz',
+  'https://tinyurl.com/meena-3d'
   
 ];
 
