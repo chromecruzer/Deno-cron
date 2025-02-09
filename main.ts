@@ -36,7 +36,7 @@ const urlsToCheck = [
  // 'https://uniqueforce-graphql-demo.onrender.com',
 //  'https://chatapp-8dgp.onrender.com/',
  // 'https://sudhalakshmi-task-management.onrender.com',
- // 'https://prachitha-saravanan-r9w6.onrender.com/',  //
+  'https://prachitha-saravanan-r9w6.onrender.com/',  //
  // 'https://startchat-chat-app.onrender.com/', 
   'https://abirami-portfolio.onrender.com',  //
   // 'https://rust-httpserver.onrender.com',
@@ -50,7 +50,7 @@ const urlsToCheck = [
   // 'https://jocular-blancmange-904044.netlify.app/',
  // 'https://tinyurl.com/Friday2001/'
   'https://reposerviise.onrender.com/',
- // 'https://uniqueforce-api.onrender.com/healthz',
+  'https://uniqueforce-api.onrender.com/healthz',
   'https://tinyurl.com/meena-3d'
   
 ];
